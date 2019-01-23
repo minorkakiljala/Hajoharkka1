@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="fi.utu"
+		module="fractalexplorer"
+		revision="1.0"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20181215235254"/>
+	<dependencies>
+		<module organisation="org.openjfx" name="javafx-web">
+			<revision name="11-ea+25" status="release" pubdate="20180829174730" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="GPLv2+CE" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="successful" details="" size="1055" time="81" location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-web/ivy-11-ea+25.xml" searched="true" original-local-location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-web/ivy-11-ea+25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-web/11-ea+25/javafx-web-11-ea+25.pom"/>
+				<caller organisation="fi.utu" name="fractalexplorer" conf="compile" rev="11-ea+25" rev-constraint-default="11-ea+25" rev-constraint-dynamic="11-ea+25" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="javafx-web" type="jar" ext="jar" extra-classifier="mac" status="successful" details="" size="23909031" time="17142" location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-web/jars/javafx-web-11-ea+25-mac.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-web/11-ea+25/javafx-web-11-ea+25-mac.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-swing">
+			<revision name="11-ea+25" status="release" pubdate="20180829174713" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="GPLv2+CE" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="successful" details="" size="909" time="64" location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-swing/ivy-11-ea+25.xml" searched="true" original-local-location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-swing/ivy-11-ea+25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11-ea+25/javafx-swing-11-ea+25.pom"/>
+				<caller organisation="fi.utu" name="fractalexplorer" conf="compile" rev="11-ea+25" rev-constraint-default="11-ea+25" rev-constraint-dynamic="11-ea+25" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="javafx-swing" type="jar" ext="jar" extra-classifier="mac" status="successful" details="" size="119848" time="1258" location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-swing/jars/javafx-swing-11-ea+25-mac.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11-ea+25/javafx-swing-11-ea+25-mac.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-media">
+			<revision name="11-ea+25" status="release" pubdate="20180829174655" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="4">
+				<license name="GPLv2+CE" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="successful" details="" size="909" time="72" location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-media/ivy-11-ea+25.xml" searched="true" original-local-location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-media/ivy-11-ea+25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea+25/javafx-media-11-ea+25.pom"/>
+				<caller organisation="fi.utu" name="fractalexplorer" conf="compile" rev="11-ea+25" rev-constraint-default="11-ea+25" rev-constraint-dynamic="11-ea+25" callerrev="1.0"/>
+				<caller organisation="org.openjfx" name="javafx-web" conf="default, compile, runtime, master" rev="11-ea+25" rev-constraint-default="11-ea+25" rev-constraint-dynamic="11-ea+25" callerrev="11-ea+25"/>
+				<artifacts>
+					<artifact name="javafx-media" type="jar" ext="jar" extra-classifier="mac" status="successful" details="" size="1692229" time="5857" location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-media/jars/javafx-media-11-ea+25-mac.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea+25/javafx-media-11-ea+25-mac.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-fxml">
+			<revision name="11-ea+25" status="release" pubdate="20180829174537" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="GPLv2+CE" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="successful" details="" size="907" time="63" location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-fxml/ivy-11-ea+25.xml" searched="true" original-local-location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-fxml/ivy-11-ea+25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11-ea+25/javafx-fxml-11-ea+25.pom"/>
+				<caller organisation="fi.utu" name="fractalexplorer" conf="compile" rev="11-ea+25" rev-constraint-default="11-ea+25" rev-constraint-dynamic="11-ea+25" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="javafx-fxml" type="jar" ext="jar" extra-classifier="mac" status="successful" details="" size="127394" time="1259" location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-fxml/jars/javafx-fxml-11-ea+25-mac.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11-ea+25/javafx-fxml-11-ea+25-mac.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-controls">
+			<revision name="11-ea+25" status="release" pubdate="20180829174315" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="GPLv2+CE" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="successful" details="" size="915" time="81" location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-controls/ivy-11-ea+25.xml" searched="true" original-local-location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-controls/ivy-11-ea+25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25.pom"/>
+				<caller organisation="org.openjfx" name="javafx-fxml" conf="default, compile, runtime, master" rev="11-ea+25" rev-constraint-default="11-ea+25" rev-constraint-dynamic="11-ea+25" callerrev="11-ea+25"/>
+				<caller organisation="fi.utu" name="fractalexplorer" conf="compile" rev="11-ea+25" rev-constraint-default="11-ea+25" rev-constraint-dynamic="11-ea+25" callerrev="1.0"/>
+				<caller organisation="org.openjfx" name="javafx-web" conf="default, compile, runtime, master" rev="11-ea+25" rev-constraint-default="11-ea+25" rev-constraint-dynamic="11-ea+25" callerrev="11-ea+25"/>
+				<artifacts>
+					<artifact name="javafx-controls" type="jar" ext="jar" extra-classifier="mac" status="successful" details="" size="2511057" time="7019" location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-controls/jars/javafx-controls-11-ea+25-mac.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25-mac.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-graphics">
+			<revision name="11-ea+25" status="release" pubdate="20180829174611" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="2">
+				<license name="GPLv2+CE" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="successful" details="" size="911" time="83" location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-graphics/ivy-11-ea+25.xml" searched="true" original-local-location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-graphics/ivy-11-ea+25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25.pom"/>
+				<caller organisation="org.openjfx" name="javafx-media" conf="default, compile, runtime, master" rev="11-ea+25" rev-constraint-default="11-ea+25" rev-constraint-dynamic="11-ea+25" callerrev="11-ea+25"/>
+				<caller organisation="org.openjfx" name="javafx-swing" conf="default, compile, runtime, master" rev="11-ea+25" rev-constraint-default="11-ea+25" rev-constraint-dynamic="11-ea+25" callerrev="11-ea+25"/>
+				<caller organisation="org.openjfx" name="javafx-controls" conf="default, compile, runtime, master" rev="11-ea+25" rev-constraint-default="11-ea+25" rev-constraint-dynamic="11-ea+25" callerrev="11-ea+25"/>
+				<caller organisation="fi.utu" name="fractalexplorer" conf="compile" rev="11-ea+25" rev-constraint-default="11-ea+25" rev-constraint-dynamic="11-ea+25" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="javafx-graphics" type="jar" ext="jar" extra-classifier="mac" status="successful" details="" size="4803293" time="10144" location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-graphics/jars/javafx-graphics-11-ea+25-mac.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25-mac.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-base">
+			<revision name="11-ea+25" status="release" pubdate="20180829173918" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="GPLv2+CE" url="http://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="successful" details="" size="754" time="79" location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-base/ivy-11-ea+25.xml" searched="true" original-local-location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-base/ivy-11-ea+25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25.pom"/>
+				<caller organisation="fi.utu" name="fractalexplorer" conf="compile" rev="11-ea+25" rev-constraint-default="11-ea+25" rev-constraint-dynamic="11-ea+25" callerrev="1.0"/>
+				<caller organisation="org.openjfx" name="javafx-graphics" conf="compile, runtime" rev="11-ea+25" rev-constraint-default="11-ea+25" rev-constraint-dynamic="11-ea+25" callerrev="11-ea+25"/>
+				<artifacts>
+					<artifact name="javafx-base" type="jar" ext="jar" extra-classifier="mac" status="successful" details="" size="750054" time="3779" location="/Users/minorkakiljala/.ivy2/cache/org.openjfx/javafx-base/jars/javafx-base-11-ea+25-mac.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25-mac.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

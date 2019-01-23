@@ -1,0 +1,1011 @@
+[info] Updating ...
+[debug] :: resolving dependencies :: fi.utu#fractalexplorer;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: Checking cache for: dependency: org.openjfx#javafx-base;11-ea+25 {compile=[default(compile)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.openjfx#javafx-base;11-ea+25 {compile=[default(compile)]}
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx-base/11-ea+25/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.openjfx#javafx-base;11-ea+25
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25.pom
+[debug] 	public: found md file for org.openjfx#javafx-base;11-ea+25
+[debug] 		=> https://repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25.pom (11-ea+25)
+[debug] downloading https://repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25.pom
+[debug] 	[SUCCESSFUL ] org.openjfx#javafx-base;11-ea+25!javafx-base.pom(pom.original) (79ms)
+[debug] sbt-chain: Checking cache for: dependency: org.openjfx#javafx;11-ea+25 {}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.openjfx#javafx;11-ea+25 {}
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx/11-ea+25/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.openjfx#javafx;11-ea+25
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx/11-ea+25/javafx-11-ea+25.pom
+[debug] 	public: found md file for org.openjfx#javafx;11-ea+25
+[debug] 		=> https://repo1.maven.org/maven2/org/openjfx/javafx/11-ea+25/javafx-11-ea+25.pom (11-ea+25)
+[debug] downloading https://repo1.maven.org/maven2/org/openjfx/javafx/11-ea+25/javafx-11-ea+25.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx/11-ea+25/javafx-11-ea+25.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx/11-ea+25/javafx-11-ea+25.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/openjfx/javafx/11-ea+25/javafx-11-ea+25.pom
+[debug] 	[SUCCESSFUL ] org.openjfx#javafx;11-ea+25!javafx.pom(pom.original) (74ms)
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx/11-ea+25/jars/javafx.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx/11-ea+25/javafx-11-ea+25.jar
+[debug] CLIENT ERROR:  url=https://repo1.maven.org/maven2/org/openjfx/javafx/11-ea%2B25/javafx-11-ea%2B25.jar
+[debug] 		tried /Users/minorkakiljala/.sbt/preloaded/org.openjfx/javafx/11-ea+25/jars/javafx.jar
+[debug] 		tried file:////Users/minorkakiljala/.sbt/preloaded/org/openjfx/javafx/11-ea+25/javafx-11-ea+25.jar
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx-base/11-ea+25/jars/javafx-base.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25.jar
+[debug] 	found org.openjfx#javafx-base;11-ea+25 in public
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: Checking cache for: dependency: org.openjfx#javafx-controls;11-ea+25 {compile=[default(compile)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.openjfx#javafx-controls;11-ea+25 {compile=[default(compile)]}
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx-controls/11-ea+25/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.openjfx#javafx-controls;11-ea+25
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25.pom
+[debug] 	public: found md file for org.openjfx#javafx-controls;11-ea+25
+[debug] 		=> https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25.pom (11-ea+25)
+[debug] downloading https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25.pom
+[debug] 	[SUCCESSFUL ] org.openjfx#javafx-controls;11-ea+25!javafx-controls.pom(pom.original) (81ms)
+[debug] sbt-chain: Checking cache for: dependency: org.openjfx#javafx;11-ea+25 {}
+[debug] sbt-chain: module revision found in cache: org.openjfx#javafx;11-ea+25
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx-controls/11-ea+25/jars/javafx-controls.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25.jar
+[debug] 	found org.openjfx#javafx-controls;11-ea+25 in public
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: Checking cache for: dependency: org.openjfx#javafx-graphics;11-ea+25 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.openjfx#javafx-graphics;11-ea+25 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx-graphics/11-ea+25/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.openjfx#javafx-graphics;11-ea+25
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25.pom
+[debug] 	public: found md file for org.openjfx#javafx-graphics;11-ea+25
+[debug] 		=> https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25.pom (11-ea+25)
+[debug] downloading https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25.pom
+[debug] 	[SUCCESSFUL ] org.openjfx#javafx-graphics;11-ea+25!javafx-graphics.pom(pom.original) (83ms)
+[debug] sbt-chain: Checking cache for: dependency: org.openjfx#javafx;11-ea+25 {}
+[debug] sbt-chain: module revision found in cache: org.openjfx#javafx;11-ea+25
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx-graphics/11-ea+25/jars/javafx-graphics.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25.jar
+[debug] 	found org.openjfx#javafx-graphics;11-ea+25 in public
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->default(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: Checking cache for: dependency: org.openjfx#javafx-fxml;11-ea+25 {compile=[default(compile)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.openjfx#javafx-fxml;11-ea+25 {compile=[default(compile)]}
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx-fxml/11-ea+25/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.openjfx#javafx-fxml;11-ea+25
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11-ea+25/javafx-fxml-11-ea+25.pom
+[debug] 	public: found md file for org.openjfx#javafx-fxml;11-ea+25
+[debug] 		=> https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11-ea+25/javafx-fxml-11-ea+25.pom (11-ea+25)
+[debug] downloading https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11-ea+25/javafx-fxml-11-ea+25.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11-ea+25/javafx-fxml-11-ea+25.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11-ea+25/javafx-fxml-11-ea+25.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11-ea+25/javafx-fxml-11-ea+25.pom
+[debug] 	[SUCCESSFUL ] org.openjfx#javafx-fxml;11-ea+25!javafx-fxml.pom(pom.original) (63ms)
+[debug] sbt-chain: Checking cache for: dependency: org.openjfx#javafx;11-ea+25 {}
+[debug] sbt-chain: module revision found in cache: org.openjfx#javafx;11-ea+25
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx-fxml/11-ea+25/jars/javafx-fxml.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11-ea+25/javafx-fxml-11-ea+25.jar
+[debug] 	found org.openjfx#javafx-fxml;11-ea+25 in public
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->default(compile)]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: Checking cache for: dependency: org.openjfx#javafx-media;11-ea+25 {compile=[default(compile)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.openjfx#javafx-media;11-ea+25 {compile=[default(compile)]}
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx-media/11-ea+25/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.openjfx#javafx-media;11-ea+25
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea+25/javafx-media-11-ea+25.pom
+[debug] 	public: found md file for org.openjfx#javafx-media;11-ea+25
+[debug] 		=> https://repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea+25/javafx-media-11-ea+25.pom (11-ea+25)
+[debug] downloading https://repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea+25/javafx-media-11-ea+25.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea+25/javafx-media-11-ea+25.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea+25/javafx-media-11-ea+25.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea+25/javafx-media-11-ea+25.pom
+[debug] 	[SUCCESSFUL ] org.openjfx#javafx-media;11-ea+25!javafx-media.pom(pom.original) (72ms)
+[debug] sbt-chain: Checking cache for: dependency: org.openjfx#javafx;11-ea+25 {}
+[debug] sbt-chain: module revision found in cache: org.openjfx#javafx;11-ea+25
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx-media/11-ea+25/jars/javafx-media.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea+25/javafx-media-11-ea+25.jar
+[debug] 	found org.openjfx#javafx-media;11-ea+25 in public
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: Checking cache for: dependency: org.openjfx#javafx-swing;11-ea+25 {compile=[default(compile)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.openjfx#javafx-swing;11-ea+25 {compile=[default(compile)]}
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx-swing/11-ea+25/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.openjfx#javafx-swing;11-ea+25
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11-ea+25/javafx-swing-11-ea+25.pom
+[debug] 	public: found md file for org.openjfx#javafx-swing;11-ea+25
+[debug] 		=> https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11-ea+25/javafx-swing-11-ea+25.pom (11-ea+25)
+[debug] downloading https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11-ea+25/javafx-swing-11-ea+25.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11-ea+25/javafx-swing-11-ea+25.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11-ea+25/javafx-swing-11-ea+25.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11-ea+25/javafx-swing-11-ea+25.pom
+[debug] 	[SUCCESSFUL ] org.openjfx#javafx-swing;11-ea+25!javafx-swing.pom(pom.original) (64ms)
+[debug] sbt-chain: Checking cache for: dependency: org.openjfx#javafx;11-ea+25 {}
+[debug] sbt-chain: module revision found in cache: org.openjfx#javafx;11-ea+25
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx-swing/11-ea+25/jars/javafx-swing.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11-ea+25/javafx-swing-11-ea+25.jar
+[debug] 	found org.openjfx#javafx-swing;11-ea+25 in public
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: Checking cache for: dependency: org.openjfx#javafx-web;11-ea+25 {compile=[default(compile)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.openjfx#javafx-web;11-ea+25 {compile=[default(compile)]}
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx-web/11-ea+25/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.openjfx#javafx-web;11-ea+25
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-web/11-ea+25/javafx-web-11-ea+25.pom
+[debug] 	public: found md file for org.openjfx#javafx-web;11-ea+25
+[debug] 		=> https://repo1.maven.org/maven2/org/openjfx/javafx-web/11-ea+25/javafx-web-11-ea+25.pom (11-ea+25)
+[debug] downloading https://repo1.maven.org/maven2/org/openjfx/javafx-web/11-ea+25/javafx-web-11-ea+25.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-web/11-ea+25/javafx-web-11-ea+25.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-web/11-ea+25/javafx-web-11-ea+25.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/openjfx/javafx-web/11-ea+25/javafx-web-11-ea+25.pom
+[debug] 	[SUCCESSFUL ] org.openjfx#javafx-web;11-ea+25!javafx-web.pom(pom.original) (81ms)
+[debug] sbt-chain: Checking cache for: dependency: org.openjfx#javafx;11-ea+25 {}
+[debug] sbt-chain: module revision found in cache: org.openjfx#javafx;11-ea+25
+[debug] 		tried /Users/minorkakiljala/.ivy2/local/org.openjfx/javafx-web/11-ea+25/jars/javafx-web.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-web/11-ea+25/javafx-web-11-ea+25.jar
+[debug] 	found org.openjfx#javafx-web;11-ea+25 in public
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [compile->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [runtime]
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->default(compile)]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [test]
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [runtime]
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->default(compile)]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [compile-internal]
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->default(compile)]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->master]
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [optional]
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [runtime-internal]
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [runtime]
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->default(compile)]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->master]
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [test-internal]
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [test]
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [runtime]
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-base;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-controls;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-graphics;11-ea+25->org.openjfx#javafx-base;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-controls;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-fxml;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-fxml;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->default(compile)]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-graphics;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-media;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-media;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-swing;11-ea+25->org.openjfx#javafx-graphics;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-swing;11-ea+25 [compile->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->compile]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [compile->master(compile)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [compile->compile(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-controls;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [runtime->runtime(*)]
+[debug] == resolving dependencies org.openjfx#javafx-web;11-ea+25->org.openjfx#javafx-media;11-ea+25 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.openjfx#javafx-web;11-ea+25 [compile->master]
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [optional]
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [provided]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [plugin]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for fi.utu#fractalexplorer;1.0 [scala-tool]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.scala-lang#scala-compiler;2.12.7 [scala-tool->default]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.7
+[debug] 	found org.scala-lang#scala-compiler;2.12.7 in sbt-chain
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.scala-lang#scala-compiler;2.12.7 [scala-tool->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.scala-lang#scala-compiler;2.12.7 [scala-tool->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-library;2.12.7 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.7
+[debug] 	found org.scala-lang#scala-library;2.12.7 in sbt-chain
+[debug] 	[2.12.7] org.scala-lang#scala-library;2.12.7
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-library;2.12.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-library;2.12.7 [compile->default]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-library;2.12.7 [compile->runtime]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-library;2.12.7 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-library;2.12.7 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-library;2.12.7 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-library;2.12.7 [compile->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-reflect;2.12.7 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.7
+[debug] 	found org.scala-lang#scala-reflect;2.12.7 in sbt-chain
+[debug] 	[2.12.7] org.scala-lang#scala-reflect;2.12.7
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-reflect;2.12.7 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.12.7->org.scala-lang#scala-library;2.12.7 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.12.7->org.scala-lang#scala-library;2.12.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-reflect;2.12.7 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-reflect;2.12.7 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.12.7->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.12.7->org.scala-lang#scala-library;2.12.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
+[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {test=[runtime(*), master(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {test=[runtime(*), master(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {test=[runtime(*), master(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {test=[runtime(*), master(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {test=[runtime(*), master(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {test=[runtime(*), master(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {test=[runtime(*), master(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {test=[runtime(*), master(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.7 [runtime->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-library;2.12.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-reflect;2.12.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-reflect;2.12.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.scala-lang#scala-compiler;2.12.7 [scala-tool->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.scala-lang#scala-compiler;2.12.7 [scala-tool->optional(default)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->jline#jline;2.14.6 [optional->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.6 {optional=[compile(*), master(*)]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.14.6
+[debug] 	found jline#jline;2.14.6 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.7->jline#jline;2.14.6 [optional->compile(*)]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.scala-lang#scala-library;2.12.7 [scala-tool->default]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.scala-lang#scala-library;2.12.7 [scala-tool->compile]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.scala-lang#scala-library;2.12.7 [scala-tool->master]
+[debug] == resolving dependencies fi.utu#fractalexplorer;1.0->org.scala-lang#scala-library;2.12.7 [scala-tool->optional(default)]
+[debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25-mac.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25-mac.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11-ea+25/javafx-fxml-11-ea+25-mac.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25-mac.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea+25/javafx-media-11-ea+25-mac.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11-ea+25/javafx-swing-11-ea+25-mac.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/openjfx/javafx-web/11-ea+25/javafx-web-11-ea+25-mac.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
+[info] downloading https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25-mac.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25-mac.jar
+[info] downloading https://repo1.maven.org/maven2/org/openjfx/javafx-web/11-ea+25/javafx-web-11-ea+25-mac.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-web/11-ea+25/javafx-web-11-ea+25-mac.jar
+[info] downloading https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11-ea+25/javafx-swing-11-ea+25-mac.jar ...
+[info] downloading https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11-ea+25/javafx-fxml-11-ea+25-mac.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11-ea+25/javafx-swing-11-ea+25-mac.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11-ea+25/javafx-fxml-11-ea+25-mac.jar
+[info] downloading https://repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25-mac.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25-mac.jar
+[info] downloading https://repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea+25/javafx-media-11-ea+25-mac.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea+25/javafx-media-11-ea+25-mac.jar
+[info] downloading https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25-mac.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25-mac.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11-ea+25/javafx-fxml-11-ea+25-mac.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11-ea+25/javafx-swing-11-ea+25-mac.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/openjfx/javafx-swing/11-ea+25/javafx-swing-11-ea+25-mac.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/11-ea+25/javafx-fxml-11-ea+25-mac.jar
+[info] 	[SUCCESSFUL ] org.openjfx#javafx-fxml;11-ea+25!javafx-fxml.jar (1259ms)
+[info] 	[SUCCESSFUL ] org.openjfx#javafx-swing;11-ea+25!javafx-swing.jar (1258ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25-mac.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25-mac.jar
+[info] 	[SUCCESSFUL ] org.openjfx#javafx-base;11-ea+25!javafx-base.jar (3779ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea+25/javafx-media-11-ea+25-mac.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea+25/javafx-media-11-ea+25-mac.jar
+[info] 	[SUCCESSFUL ] org.openjfx#javafx-media;11-ea+25!javafx-media.jar (5857ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25-mac.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25-mac.jar
+[info] 	[SUCCESSFUL ] org.openjfx#javafx-controls;11-ea+25!javafx-controls.jar (7019ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25-mac.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25-mac.jar
+[info] 	[SUCCESSFUL ] org.openjfx#javafx-graphics;11-ea+25!javafx-graphics.jar (10144ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/openjfx/javafx-web/11-ea+25/javafx-web-11-ea+25-mac.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/openjfx/javafx-web/11-ea+25/javafx-web-11-ea+25-mac.jar
+[info] 	[SUCCESSFUL ] org.openjfx#javafx-web;11-ea+25!javafx-web.jar (17142ms)
+[debug] :: resolution report :: resolve 1088ms :: artifacts dl 17146ms
+[debug] 	report for fi.utu#fractalexplorer;1.0 compile produced in /Users/minorkakiljala/Downloads/fractalexplorer-master/target/resolution-cache/reports/fi.utu-fractalexplorer-compile.xml
+[debug] 	report for fi.utu#fractalexplorer;1.0 runtime produced in /Users/minorkakiljala/Downloads/fractalexplorer-master/target/resolution-cache/reports/fi.utu-fractalexplorer-runtime.xml
+[debug] 	report for fi.utu#fractalexplorer;1.0 test produced in /Users/minorkakiljala/Downloads/fractalexplorer-master/target/resolution-cache/reports/fi.utu-fractalexplorer-test.xml
+[debug] 	report for fi.utu#fractalexplorer;1.0 provided produced in /Users/minorkakiljala/Downloads/fractalexplorer-master/target/resolution-cache/reports/fi.utu-fractalexplorer-provided.xml
+[debug] 	report for fi.utu#fractalexplorer;1.0 optional produced in /Users/minorkakiljala/Downloads/fractalexplorer-master/target/resolution-cache/reports/fi.utu-fractalexplorer-optional.xml
+[debug] 	report for fi.utu#fractalexplorer;1.0 compile-internal produced in /Users/minorkakiljala/Downloads/fractalexplorer-master/target/resolution-cache/reports/fi.utu-fractalexplorer-compile-internal.xml
+[debug] 	report for fi.utu#fractalexplorer;1.0 runtime-internal produced in /Users/minorkakiljala/Downloads/fractalexplorer-master/target/resolution-cache/reports/fi.utu-fractalexplorer-runtime-internal.xml
+[debug] 	report for fi.utu#fractalexplorer;1.0 test-internal produced in /Users/minorkakiljala/Downloads/fractalexplorer-master/target/resolution-cache/reports/fi.utu-fractalexplorer-test-internal.xml
+[debug] 	report for fi.utu#fractalexplorer;1.0 plugin produced in /Users/minorkakiljala/Downloads/fractalexplorer-master/target/resolution-cache/reports/fi.utu-fractalexplorer-plugin.xml
+[debug] 	report for fi.utu#fractalexplorer;1.0 pom produced in /Users/minorkakiljala/Downloads/fractalexplorer-master/target/resolution-cache/reports/fi.utu-fractalexplorer-pom.xml
+[debug] 	report for fi.utu#fractalexplorer;1.0 scala-tool produced in /Users/minorkakiljala/Downloads/fractalexplorer-master/target/resolution-cache/reports/fi.utu-fractalexplorer-scala-tool.xml
+[debug] 	resolve done (1088ms resolve - 17146ms download)
+[info] Done updating.
